@@ -1,0 +1,32 @@
+:root{
+    --primary-color:#FEDC00;
+}
+
+header{
+    height: 100vh;
+    display: flex;
+    background: rgba(0, 0, 0, 0.7) url(./img/laptop.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-blend-mode: saturation;
+    filter: grayscale(100%);
+}
+main{
+    background-color: aquamarine;
+    height: 200px;
+}
+
+footer{
+    background-color: brown;
+    height: 200px;
+}
+
+#color{
+    color: var(--primary-color);
+}
+h1{
+    color: #FEDC00;
+}
+
